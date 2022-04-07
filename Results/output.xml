@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.9.10 on win32)" generated="20220407 09:42:10.120" rpa="false" schemaversion="3">
+<suite id="s1" name="Login" source="C:\Users\Vishnu\PycharmProjects\RobertFramework\Tests\Facebook\FunctionalTestSuite\Login.robot">
+<test id="s1-t1" name="Login Screen Test" line="7">
+<kw name="Log" library="BuiltIn">
+<arg>hello</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220407 09:42:10.318" level="INFO">hello</msg>
+<status status="PASS" starttime="20220407 09:42:10.318" endtime="20220407 09:42:10.318"/>
+</kw>
+<doc>This is login screen for users</doc>
+<tag>users</tag>
+<status status="PASS" starttime="20220407 09:42:10.315" endtime="20220407 09:42:10.318"/>
+</test>
+<test id="s1-t2" name="Registration Screen Test" line="12">
+<kw name="Log" library="BuiltIn">
+<arg>success</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220407 09:42:10.320" level="INFO">success</msg>
+<status status="PASS" starttime="20220407 09:42:10.320" endtime="20220407 09:42:10.320"/>
+</kw>
+<doc>This is registration screen for users</doc>
+<tag>users</tag>
+<status status="PASS" starttime="20220407 09:42:10.320" endtime="20220407 09:42:10.320"/>
+</test>
+<test id="s1-t3" name="Admin Login Test" line="17">
+<kw name="Log" library="BuiltIn">
+<arg>Admin</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220407 09:42:10.320" level="INFO">Admin</msg>
+<status status="PASS" starttime="20220407 09:42:10.320" endtime="20220407 09:42:10.320"/>
+</kw>
+<doc>This page is for admins</doc>
+<tag>Admin</tag>
+<status status="PASS" starttime="20220407 09:42:10.320" endtime="20220407 09:42:10.320"/>
+</test>
+<status status="PASS" starttime="20220407 09:42:10.120" endtime="20220407 09:42:10.320"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Admin</stat>
+<stat pass="2" fail="0" skip="0">users</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
