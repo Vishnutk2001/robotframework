@@ -9,7 +9,8 @@ Test Teardown  Log  Inside Test Case Teardown
 ${google_search}  https://www.google.com/
 ${search_query}  flipkart
 ${search_product}  iphone
-
+${Email_id}  t.k.vishnu2001@gmail.com
+${password}  vishnu123
 *** Test Cases ***
 Google Search Test
     [Documentation]  This test is to open google
@@ -37,6 +38,16 @@ Purchase Item Test
     sleep  2s
     Click Button    xpath=/html/body/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[2]/form/button
     sleep  2s
+    Input Text  xpath=/html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/div/div/div/div[1]/div/form/div[1]/input  ${Email_id}
+    sleep  2s
+    Click Button    xpath=/html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/div/div/div/div[1]/div/form/div[3]/button
+    sleep  2s
+    Input Text  xpath=/html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/div/div/div/div[1]/div/form/div[2]/input  ${password}
+    sleep  2s
+    Click Button    xpath=/html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/div/div/div/div[1]/div/form/div[4]/button
+    sleep  4s
+    Close Browser
+
 
 
 
@@ -45,3 +56,5 @@ Search Data
     Input Text  name:q  ${search_query}
 Search Flip Data
     Input Text  name:q  ${search_product}
+
+
